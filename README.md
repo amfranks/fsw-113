@@ -1,2 +1,2 @@
-# fsw-113
-# fsw-113
+# FSW-113—JavaScript II-Intermediate Programming
+Students will become more proficient in JavaScript concepts of Arrays, Objects, Prototypes, and Functions; and learn advanced JavaScript skills, including: Spread Operators, Rest Parameters, Arrow Functions, Classes, and Events. Students will practice skills that demonstrate professional attitude and behavior (e.g. teamwork, leadership, and communication).
