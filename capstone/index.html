@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bug Tracker</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id='reportWrapper' class='reportWrapper'>
+
+        <div id='topbar' class='topbar'><img src='./images/bug.png' alt='bug icon' style='height:20px; width:20px;' id="bugImg"/>Report a New Bug</div>
+
+        <form id='bugForm' action='#' onsubmit='reportBug(); return false'>
+            <div id='reporterByDiv' class='userInput'>
+                <input placeholder= 'Reported By' type='text' id='reportedBy' style='width:97%' required/>
+            </div>
+
+            <div id='systemDiv' class='userInput'>
+                <select id='system' style='width:100%' required></select>
+            </div>
+
+            <div id='subSystemDiv' class='userInput'>
+                <select id='subSystem' style='width:100%' required></select>
+            </div>
+
+            <div id='bugDescrDiv' class='userInput'>
+                <textarea id='bugDesc' style='width:98%' placeholder=' Describe the bug' required></textarea>
+            </div>
+
+            <div id='bttnDiv' style='text-align: right;'>
+                <button type='reset' id='resetBtn'>Reset</button>
+                <button type='submit' id='submitBtn'>Submit</button>
+            </div>
+        </form>
+    </div>
+
+    <hr>
+
+    <br />
+
+    <div id='listWrapper' class='listWrapper'></div>
+    </div>
+    <script src='./scripts/data.js'></script>
+    <script src='./scripts/bug.js'></script>
+</body>
+
+</html>
